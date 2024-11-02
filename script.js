@@ -118,6 +118,15 @@ var swiper = new Swiper(".swiper", {
       },
   })
 
+//   var main = document.querySelector("body")
+
+// const scroll = new LocomotiveScroll({
+//     el:main,
+//     smooth:true,
+//     // lerp:0.1    //0 to 1
+    
+// })
+
 
 // var productBtn = document.querySelector('#Product')
 // var productDiv = document.querySelector('#product-page')

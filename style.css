@@ -1,14 +1,14 @@
 @font-face{
     font-family: font1;
-    src: url(./fonts/ClearSansDisplayRegular.woff2);
+    src: url(./1_Clear_Bank/fonts/ClearSansDisplayRegular.woff2);
 }
 @font-face{
     font-family: font2;
-    src: url(./fonts/ClearSansTextBold.woff2);
+    src: url(./1_Clear_Bank/fonts/ClearSansTextBold.woff2);
 }
 @font-face{
     font-family: font3;
-    src: url(./fonts/ClearSansTextRegular.woff2);
+    src: url(./1_Clear_Bank/fonts/ClearSansTextRegular.woff2);
 }
 
 *{
