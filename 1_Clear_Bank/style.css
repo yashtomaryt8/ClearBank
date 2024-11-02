@@ -1,0 +1,80 @@
+@font-face{
+    font-family: font1;
+    src: url(./fonts/ClearSansDisplayRegular.woff2);
+}
+@font-face{
+    font-family: font2;
+    src: url(./fonts/ClearSansTextBold.woff2);
+}
+@font-face{
+    font-family: font3;
+    src: url(./fonts/ClearSansTextRegular.woff2);
+}
+
+*{
+    font-family: font1;
+}
+nav{
+    background-color: rgba(255, 255, 255, 0.605);
+    backdrop-filter: blur(18px);
+}
+#blur{
+    background-color: rgba(255, 255, 255, 0.205);
+    backdrop-filter: blur(20px);
+}
+.no-scrollbar::-webkit-scrollbar {
+display: none; 
+}
+
+#parent-scroll{
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+#child-scroll{
+    padding-left: 120px;
+    display: flex;
+    gap: 120px;
+    flex-shrink: 0;
+}
+
+#products i{
+    opacity: 0;
+}
+
+
+#product-text:hover i{
+    opacity: 1;
+    transition: all ease 0.4s;
+    color: #000;
+}
+
+#product-text:hover h1{
+    color: #000;
+}
+
+#product-text h1:hover{
+    color: #3B9BA2;
+}
+
+.swiper {
+    width: 100%;
+    height: 60%;
+}
+
+.swiper-slide {
+    border: 2px solid #efefef;
+    font-size: 18px;
+    background: #fff; 
+}
+.swiper-slide:hover > button {
+    border: none;
+}
+.swiper-wrapper-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Space between navigation and Swiper */
+}
